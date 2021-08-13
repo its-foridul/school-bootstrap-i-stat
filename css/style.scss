@@ -1,0 +1,348 @@
+*{
+    padding: 0;
+    margin: 0;
+
+}
+
+.container{
+
+    header{
+        background-image: url("image/school.jpg");
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        nav{
+
+            padding: 1% 10%;
+            background: rgba(0,0,0,0.3);
+            
+
+            
+            .container-fluid{
+
+                img{
+                    width:50px;
+                    &:hover{
+                        width: 52px;
+                    }
+                }
+
+                button{
+                    .nav-icon{
+                        color: tomato;
+                    }
+                }
+
+                .nav-links{
+                    .navbar-nav{
+                        
+                        .nav-link{
+                            padding-right: 15px;
+                            font-size: larger;
+                            color: tomato;
+                            text-align: center;
+                            
+                            margin: 2px 5px;
+                            &:hover{
+                                background-color: rgba(255,255,255,0.3);
+                            }
+
+                        }
+                    }
+                }
+                
+            }
+
+
+        }
+
+
+        #banner{
+
+
+            
+            .banner-container{
+                padding: 15%;
+                height: 100vh;
+                .banner-contents{
+                    text-align: center;
+                    h1{
+                        color: rgb(0, 77, 4);
+                        background-color: rgba(251, 255, 22, 0.8);
+                        border-radius: 25px 0;
+                        padding: 25px 10px;
+                        width:100%;
+                    }
+                    button{
+                        padding: 5px 15px;
+                        color: white;
+                        &:hover{
+                            background-color: black;
+                        }
+
+                    }
+
+
+                }
+            }
+        }
+    }
+
+
+    main{
+        .card-section{
+            background-color: yellow;
+            h1{
+                color: black;
+            }
+            .row{
+
+                padding: 5% 4%;
+
+                .card{  
+                    border: 2px solid tomato;
+                    background-color: #334756;
+                    color: white;
+                    
+                        
+                    .icon{
+                        border:2px solid tomato;
+                        width: 100px;
+                        height: 100px;
+                        border-radius: 50px;
+                        background-color: #2C394B;
+                        img{
+                            width: 80px;
+                            padding: 9px;
+                            margin-top: 5px;
+                                
+                                
+                        }
+
+                        
+                    }
+                    transition: .4s;
+
+                    &:hover{
+                        transform: scale(1.05);
+                        box-shadow: 0 0 9px 4px #000000;                    
+                    }
+                    
+                }
+            }
+        }
+
+
+        .about-section{
+            color: white;
+            background-color: #2C394B;
+            .personal-info{
+                .basic-desc{
+                    margin-top: 5px;
+                    .icon-style{
+                        margin: auto;
+                        
+                        width: 60px;
+                        height: 60px;
+                        padding: 15px;
+                    }
+
+                    table{
+                        td{
+
+                            .star {
+                                margin-left: 10px;
+                                i{
+                                    width: 20px;
+                                    color: yellow;
+                                }
+                            }
+                        }
+                        
+                    }
+                }
+            }
+        }
+
+        #tutorials{
+            background-color: #334756;
+            .carousel{
+
+                background-color:#334756 ;
+
+                .carousel-inner{
+                    margin-left: 10px;
+
+                    .carousel-item{
+                        .outer-row{
+                            h4{
+                                margin-top: 20px;
+                                margin-bottom: 50px;
+                            }
+                            .row{
+                                margin-bottom: 100px;
+                                a{
+                                    text-decoration: none;
+                                    color: white;
+                                    
+                                   .f1{
+                                       background-color: #2C394B;
+                                       p{
+                                           padding: 10px;
+                                       }
+
+                                       transition: .4s;
+
+                                       &:hover{
+                                           transform: scale(1.1);
+                                           box-shadow: 0 0 8px 5px white;
+
+                                       }
+                                   }
+                                }
+                            }
+                        }
+
+                    }
+
+                }
+
+            }
+
+        }
+
+
+        #feedback{
+            background-color: yellow;
+            h1{
+                color: #334756;
+                margin-bottom: 20px;
+                
+            }
+            
+                .cards{
+                    
+                    
+                    
+                    .card1{
+                        background: transparent;
+                        border: none;
+                        .crd{
+
+                            margin: 20px;
+                            background-color: #334756;
+                            color: white;
+                            transition: .1s;
+                            &:hover{
+                                transform: scale(1.03);
+                                box-shadow: 0 0 10px 5px black;
+
+                            }
+                            .crd-photo{
+                                img{
+                                    width: 100%;
+                                }
+                            }
+
+                            .crd-body{
+                                padding: 20px;
+                                h4{
+                                    text-align: center;
+                                    color: yellow;
+                                }
+                            }
+                            
+                        }
+                    }
+                }
+            
+        }
+
+        #contact{
+            background-color: #334756;
+            color: white;
+            .row{
+                .social{
+
+                    
+
+                   a{
+                       margin: 20px;
+                       .fa-facebook-f{
+
+                            color: #0570E6;
+                            font-size: 40px;
+                            width: 60px;
+                            background: rgb(255, 255, 255);
+                            padding: 10px;
+                            border-radius: 50px;
+                            margin-top: 20px;
+
+                           
+                        }
+
+                       .fa-twitter{
+
+                        color: #5DA9DD;
+                        font-size: 40px;
+                        width: 60px;
+                        background: rgb(255, 255, 255);
+                        padding: 10px;
+                        border-radius: 50px;
+                        margin-top: 20px;
+                       
+                        }
+
+                        .fa-youtube{
+
+                            color: red;
+                            font-size: 40px;
+                            width: 60px;
+                            background: rgb(255, 255, 255);
+                            padding: 10px;
+                            border-radius: 50px;
+                            text-align: center;
+                            margin-top: 20px;
+                           
+                        }
+
+                        .fa-linkedin-in{
+
+                            color: #0077B5;
+                            font-size: 40px;
+                            width: 60px;
+                            background: rgb(255, 255, 255);
+                            padding: 10px;
+                            border-radius: 50px;
+                            margin-top: 20px;
+                           
+                        }
+
+ 
+                        &:hover{
+                            opacity: .6;
+                         }
+                    }
+                    
+                   
+
+                   
+                    
+                    
+
+                    
+
+                }
+
+            }
+                
+
+        }
+    }
+
+   
+
+}
+
+

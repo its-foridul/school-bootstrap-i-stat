@@ -1,0 +1,273 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.container header {
+  background-image: url("image/school.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.container header nav {
+  padding: 1% 10%;
+  background: rgba(0, 0, 0, 0.3);
+}
+
+.container header nav .container-fluid img {
+  width: 50px;
+}
+
+.container header nav .container-fluid img:hover {
+  width: 52px;
+}
+
+.container header nav .container-fluid button .nav-icon {
+  color: tomato;
+}
+
+.container header nav .container-fluid .nav-links .navbar-nav .nav-link {
+  padding-right: 15px;
+  font-size: larger;
+  color: tomato;
+  text-align: center;
+  margin: 2px 5px;
+}
+
+.container header nav .container-fluid .nav-links .navbar-nav .nav-link:hover {
+  background-color: rgba(255, 255, 255, 0.3);
+}
+
+.container header #banner .banner-container {
+  padding: 15%;
+  height: 100vh;
+}
+
+.container header #banner .banner-container .banner-contents {
+  text-align: center;
+}
+
+.container header #banner .banner-container .banner-contents h1 {
+  color: #004d04;
+  background-color: rgba(251, 255, 22, 0.8);
+  border-radius: 25px 0;
+  padding: 25px 10px;
+  width: 100%;
+}
+
+.container header #banner .banner-container .banner-contents button {
+  padding: 5px 15px;
+  color: white;
+}
+
+.container header #banner .banner-container .banner-contents button:hover {
+  background-color: black;
+}
+
+.container main .card-section {
+  background-color: yellow;
+}
+
+.container main .card-section h1 {
+  color: black;
+}
+
+.container main .card-section .row {
+  padding: 5% 4%;
+}
+
+.container main .card-section .row .card {
+  border: 2px solid tomato;
+  background-color: #334756;
+  color: white;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+.container main .card-section .row .card .icon {
+  border: 2px solid tomato;
+  width: 100px;
+  height: 100px;
+  border-radius: 50px;
+  background-color: #2C394B;
+}
+
+.container main .card-section .row .card .icon img {
+  width: 80px;
+  padding: 9px;
+  margin-top: 5px;
+}
+
+.container main .card-section .row .card:hover {
+  -webkit-transform: scale(1.05);
+          transform: scale(1.05);
+  -webkit-box-shadow: 0 0 9px 4px #000000;
+          box-shadow: 0 0 9px 4px #000000;
+}
+
+.container main .about-section {
+  color: white;
+  background-color: #2C394B;
+}
+
+.container main .about-section .personal-info .basic-desc {
+  margin-top: 5px;
+}
+
+.container main .about-section .personal-info .basic-desc .icon-style {
+  margin: auto;
+  width: 60px;
+  height: 60px;
+  padding: 15px;
+}
+
+.container main .about-section .personal-info .basic-desc table td .star {
+  margin-left: 10px;
+}
+
+.container main .about-section .personal-info .basic-desc table td .star i {
+  width: 20px;
+  color: yellow;
+}
+
+.container main #tutorials {
+  background-color: #334756;
+}
+
+.container main #tutorials .carousel {
+  background-color: #334756;
+}
+
+.container main #tutorials .carousel .carousel-inner {
+  margin-left: 10px;
+}
+
+.container main #tutorials .carousel .carousel-inner .carousel-item .outer-row h4 {
+  margin-top: 20px;
+  margin-bottom: 50px;
+}
+
+.container main #tutorials .carousel .carousel-inner .carousel-item .outer-row .row {
+  margin-bottom: 100px;
+}
+
+.container main #tutorials .carousel .carousel-inner .carousel-item .outer-row .row a {
+  text-decoration: none;
+  color: white;
+}
+
+.container main #tutorials .carousel .carousel-inner .carousel-item .outer-row .row a .f1 {
+  background-color: #2C394B;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+.container main #tutorials .carousel .carousel-inner .carousel-item .outer-row .row a .f1 p {
+  padding: 10px;
+}
+
+.container main #tutorials .carousel .carousel-inner .carousel-item .outer-row .row a .f1:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+  -webkit-box-shadow: 0 0 8px 5px white;
+          box-shadow: 0 0 8px 5px white;
+}
+
+.container main #feedback {
+  background-color: yellow;
+}
+
+.container main #feedback h1 {
+  color: #334756;
+  margin-bottom: 20px;
+}
+
+.container main #feedback .cards .card1 {
+  background: transparent;
+  border: none;
+}
+
+.container main #feedback .cards .card1 .crd {
+  margin: 20px;
+  background-color: #334756;
+  color: white;
+  -webkit-transition: .1s;
+  transition: .1s;
+}
+
+.container main #feedback .cards .card1 .crd:hover {
+  -webkit-transform: scale(1.03);
+          transform: scale(1.03);
+  -webkit-box-shadow: 0 0 10px 5px black;
+          box-shadow: 0 0 10px 5px black;
+}
+
+.container main #feedback .cards .card1 .crd .crd-photo img {
+  width: 100%;
+}
+
+.container main #feedback .cards .card1 .crd .crd-body {
+  padding: 20px;
+}
+
+.container main #feedback .cards .card1 .crd .crd-body h4 {
+  text-align: center;
+  color: yellow;
+}
+
+.container main #contact {
+  background-color: #334756;
+  color: white;
+}
+
+.container main #contact .row .social a {
+  margin: 20px;
+}
+
+.container main #contact .row .social a .fa-facebook-f {
+  color: #0570E6;
+  font-size: 40px;
+  width: 60px;
+  background: white;
+  padding: 10px;
+  border-radius: 50px;
+  margin-top: 20px;
+}
+
+.container main #contact .row .social a .fa-twitter {
+  color: #5DA9DD;
+  font-size: 40px;
+  width: 60px;
+  background: white;
+  padding: 10px;
+  border-radius: 50px;
+  margin-top: 20px;
+}
+
+.container main #contact .row .social a .fa-youtube {
+  color: red;
+  font-size: 40px;
+  width: 60px;
+  background: white;
+  padding: 10px;
+  border-radius: 50px;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.container main #contact .row .social a .fa-linkedin-in {
+  color: #0077B5;
+  font-size: 40px;
+  width: 60px;
+  background: white;
+  padding: 10px;
+  border-radius: 50px;
+  margin-top: 20px;
+}
+
+.container main #contact .row .social a:hover {
+  opacity: .6;
+}
+/*# sourceMappingURL=style.css.map */
